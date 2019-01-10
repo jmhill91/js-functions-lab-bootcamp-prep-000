@@ -2,6 +2,8 @@
 function happyHolidays(string){
   return "Happy holidays!"
 }
-function happyHolidaysTo(name){
+function happyHolidaysTo(string){
+if conhappyHolidaysTo(name)
 return `happy holidays, ${name}!`
+}
 }
