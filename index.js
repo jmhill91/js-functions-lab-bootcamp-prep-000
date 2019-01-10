@@ -2,8 +2,12 @@
 function happyHolidays(string){
   return "Happy holidays!"
 }
-function happyHolidaysTo(string){
-if console.log'happyHolidaysTo(name)'{
-return `happy holidays, ${name}!`
+function happyHolidaysTo(name){
+  return 'Happy holidays, ${name}'
 }
+function happyHolidaysTo(holiday, name){
+  return 'Happy ${holiday}, ${name}!'
+}
+function holidayCountdown(holiday, days){
+  return 'It\'s ${days} days until ${holiday}!'
 }
